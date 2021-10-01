@@ -20,10 +20,8 @@ public static int max(int x, int y, int z) {
     int aux;
     if (x > y && x > z) {
         aux = x;
-    } else if (y > z) {
-        aux = y;
     } else {
-        aux = z;
+        aux = Math.max(y, z);
     }
     return aux;
 }

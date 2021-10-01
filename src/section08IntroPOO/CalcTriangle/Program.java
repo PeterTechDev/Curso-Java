@@ -1,4 +1,4 @@
-package section08POO.ExampleCalcTriangle;
+package section08IntroPOO.CalcTriangle;
 
 import java.util.Scanner;
 
